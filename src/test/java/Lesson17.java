@@ -37,6 +37,9 @@ public class Lesson17 {
 
         @Test
         public void CreateAccount() {
+
+            int a = 10;
+            
             WebElement email = driver.findElement(By.xpath("//*[@id=\"email_create\"]"));
             WebElement createButton = driver.findElement(By.xpath("//*[@id=\"SubmitCreate\"]/span"));
 
